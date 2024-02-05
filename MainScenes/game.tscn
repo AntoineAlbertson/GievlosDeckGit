@@ -1,5 +1,8 @@
-[gd_scene format=3 uid="uid://cjf15xoyo81pk"]
+[gd_scene load_steps=2 format=3 uid="uid://cjf15xoyo81pk"]
+
+[ext_resource type="Script" path="res://MainScenes/game.gd" id="1_nc6hu"]
 
 [node name="Game" type="Node2D"]
+script = ExtResource("1_nc6hu")
 
 [node name="Node2D" type="Node2D" parent="."]
